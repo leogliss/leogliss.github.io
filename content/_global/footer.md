@@ -1,17 +1,16 @@
 +++
 fragment = "footer"
 #disabled = true
-date = "2016-09-07"
+date = "2020-08-15"
 weight = 1200
 background = "secondary"
 
-menu_title = "Further Resources"
+menu_title = "Les liens à connaître"
 
 [asset]
   image = "logo.svg"
   text = "Logo Subtext"
 +++
 
-#### Syna Theme
 
-Highly customizable open source theme for Hugo based static websites
+![Fédération Française de Roller & Skateboard](images/logo_ffrs_2018_2.png)

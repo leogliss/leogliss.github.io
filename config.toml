@@ -6,7 +6,7 @@ title = "Léogliss"
 theme = "syna"
 publishdir = "docs"
 enableGitInfo = true
-version = "0.17.3"
+version = "0.1.0"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ignorefiles = [ "content/dev/.*" ]
 
@@ -32,7 +32,7 @@ lastmod = ["lastmod", ":git", "date"]
   unsafeEvents = true # Default is false. Enables ?event=type format of url events.
 
   [params.style]
-    #background = "secondary"
+    background = "secondary"
 
   # Theme customizations
   # Assets relative to 'static/'
@@ -56,9 +56,10 @@ lastmod = ["lastmod", ":git", "date"]
     disabled = false
     pro = false
 
+
   [params.colors]
-    primary = "#00838F"
-    secondary = "#868e96"
+    primary = "#408bca"
+    secondary = "#f99700"
     success = "#008f54"
     info = "#00c9dc"
     warning = "#fdf314"
@@ -73,41 +74,42 @@ lastmod = ["lastmod", ":git", "date"]
 # configurable.
 [[menu.main]]
   url = "/"
-  name = "Home"
+  name = "Le club"
   weight = 10
 
 [[menu.main]]
   url = "/fragments"
-  name = "Fragments"
+  name = "Les cours"
   weight = 20
 
 [[menu.main]]
   url = "/docs"
-  name = "Docs"
+  name = "Inscriptions"
   weight = 30
 
 [[menu.main]]
   url = "/about"
-  name = "About"
+  name = "Photos"
   weight = 40
 
 [[menu.footer]]
-  url = "https://syna.okkur.org/demo"
-  name = "Getting Started"
+  url = "http://helloasso.com/associations/leogliss"
+  name = "HelloAsso"
   weight = 10
 
 [[menu.footer]]
-  url = "https://about.okkur.org/"
-  name = "About Okkur Labs"
+  url = "https://www.facebook.com/leogliss/"
+  name = "Facebook"
   weight = 20
 
 [[menu.footer_social]]
-  weight = 30
-  name = "github"
-  url = "https://git.okkur.org/syna"
-  pre = "fab fa-github fa-stack-2x"
+  weight = 10
+  name = "facebook"
+  url = "https://www.facebook.com/leogliss/"
+  pre = "fab fa-facebook fa-stack-1x"
+
 
 [[menu.copyright_footer]]
   url = "/about"
-  name = "About Us"
+  name = "L'association"
   weight = 10

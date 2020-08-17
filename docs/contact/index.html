@@ -14,26 +14,31 @@
   <meta name="google" content="notranslate" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="description" content="We develop our front-end code in the assets/ directory which allows us to have a development directory that would be built to be production ready and put inside the static/ and resources/ directories (which are the directories Hugo looks into for front-end files) using Webpack and Hugo&rsquo;s own resource pipelines. To start the build process for development run the following commands:
-make depmake dev # Or make build for production buildPrerequisites: node and yarn need to be installed on your system.">
-  <meta property="og:title" content="Development" />
+  <meta name="description" content="Contactez-nous
+ Vous pouvez nous contactez sur les différents canaux suivants :
+ email : clubleoglis@gmail.com téléphone : 07.67.14.03.82  Notre adresse :
+ Léogliss, Maison des associations3 place Joanne33850 Léognan">
+  <meta property="og:title" content="Contact" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/docs/development/" />
-<meta property="article:modified_time" content="2020-08-08T10:05:52+02:00" />
+<meta property="og:url" content="/contact/" />
+<meta property="article:published_time" content="2020-08-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-16T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Development &amp;middot; Léogliss" />
-  <meta name="twitter:description" content="We develop our front-end code in the assets/ directory which allows us to have a development directory that would be built to be production ready and put inside the static/ and resources/ directories (which are the directories Hugo looks into for front-end files) using Webpack and Hugo&rsquo;s own resource pipelines. To start the build process for development run the following commands:
-make depmake dev # Or make build for production buildPrerequisites: node and yarn need to be installed on your system.">
-  <meta name="twitter:url" content="/docs/development/" />
+  <meta name="twitter:title" content="Contact &amp;middot; Léogliss" />
+  <meta name="twitter:description" content="Contactez-nous
+ Vous pouvez nous contactez sur les différents canaux suivants :
+ email : clubleoglis@gmail.com téléphone : 07.67.14.03.82  Notre adresse :
+ Léogliss, Maison des associations3 place Joanne33850 Léognan">
+  <meta name="twitter:url" content="/contact/" />
         <meta property="og:image" content="">
         <meta name="twitter:image" content="">
   <meta name="author" content="Léogliss">
 
   <meta name="generator" content="Hugo 0.69.2" />
 
-  <title>Development &middot; Léogliss</title>
+  <title>Contact &middot; Léogliss</title>
 
   <!-- Theme Styles -->
   <style>
@@ -477,7 +482,7 @@ html {
 
   <nav aria-label="breadcrumb" class="overlay navbar breadcrumb-container navbar-expand-lg pt-2 bg-light navbar-dark" id="nav-breadcrumb">
     <div class="container">
-      <ol class="breadcrumb mb-0 py-1"><li class="breadcrumb-item active">Development
+      <ol class="breadcrumb mb-0 py-1"><li class="breadcrumb-item active">Contact
             </li></ol>
     </div>
   </nav>
@@ -540,72 +545,25 @@ html {
 <section id="content" class="fragment content-fragment">
     <div class="container-fluid bg-light overlay">
     <div class="container py-5 overlay">
-<div class="row"><div class="content-sidebar col-md-3 pb-4 px-md-0 order-0">
-          <div class="sticky-top pt-3"><div class="content-sidebar-body col-12 px-0 text-left text-body">
-        </div>
-          </div> </div>
-      <article class="col-md-9">
+<div class="row">
+      <article class="col-md-12">
   <div class="title-container row mx-0">
     <div class="title col px-0 text-center text-body">
-      <h2>Development</h2>
+      <h2>Contact</h2>
     </div>
   </div>
-<div class="content-body col-12 content px-0 text-body"><p>We develop our front-end code in the <code>assets/</code> directory which allows us to have a development directory that would be built to be production ready and put inside the <code>static/</code> and <code>resources/</code> directories (which are the directories Hugo looks into for front-end files) using <a href="https://webpack.js.org/">Webpack</a> and Hugo&rsquo;s own resource pipelines.
-To start the build process for development run the following commands:</p>
-<pre><code>make dep
-make dev # Or make build for production build
-</code></pre><p><em>Prerequisites: node and yarn need to be installed on your system.</em></p>
-<h3 id="styles">Styles</h3>
-<p>Syna is using Bootstrap v4.1 with a customized set of colors.
-You can change these colors by editing them in <code>config.toml</code>.
-Change other Bootstrap variables using <code>assets/styles/bootstrap/_variables.scss</code>.
-Syna customizes some parts of the theme via custom css, which is available in the <code>assets/styles</code> directory.</p>
-<h3 id="fonts">Fonts</h3>
-<p>FontAwesome Free is supported by default and is used throughout built-in fragments. You can disable it by setting <code>fontawesome.disabled</code> in your <code>config.toml</code> to <code>true</code>.</p>
-<p>If you want to add FontAwesome Pro to the theme, the following recipe may be helpful.</p>
-<ul>
-<li>Move all the files from <code>fontawesome-pro-[version]-web/webfonts/</code> (from the archive) to <code>static/fonts</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> directory.</li>
-<li>Move all the files from <code>fontawesome-pro-[version]-web/scss/</code> (from the archive) to <code>assets/styles/fontawesome</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> directory.</li>
-<li>Set <code>fontawesome.pro</code> in your <code>config.toml</code> file to <code>true</code>.</li>
-</ul>
-<p>After these steps, FontAwesome Pro will be loaded in every page of your website.</p>
-<h3 id="javascript">JavaScript</h3>
-<p>Syna uses code spliting to get bundles for each fragment.
-This allows us to have lighter pages in most cases.
-Within the <code>assets/js/</code> directory there is an <code>index.js</code> file that is the main script, which is necessary on all pages.
-Every other script is needed by the fragment of the same name.
-For example <code>hero.js</code> is needed by the <code>hero</code> fragment.</p>
-<p>If you want to add an extra script for a specific fragment, you need to add that script as an entry point in the <a href="https://github.com/okkur/syna/blob/master/webpack.config.js">webpack configuration file</a>.
-Then import that script inside the fragment (using the <code>script</code> tag).</p>
-<p>Transpiled and bundled JS files are located inside <code>assets/scripts/</code> directory and are generated using Webpack.</p>
-<h4 id="react-support">React support</h4>
-<p>Syna has built-in support for React. We use React portal API inside the <code>react-portal</code> fragment. This allows us to render an empty container that is able to render components inside it.<br>
-To use this feature you can add a new <code>react-portal</code> to your page, write your component and expose it inside the <code>window.synaPortals</code> object.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-jsx" data-lang="jsx"><span style="color:#66d9ef">import</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">as</span> <span style="color:#a6e22e">React</span> <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;react&#39;</span>;
-
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Hello</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">React</span>.<span style="color:#a6e22e">Component</span> {
-  <span style="color:#a6e22e">render</span>() {
-    <span style="color:#66d9ef">return</span> (
-      &lt;<span style="color:#f92672">h1</span>&gt;<span style="color:#a6e22e">Hello</span> <span style="color:#a6e22e">World</span>&lt;/<span style="color:#f92672">h1</span>&gt;
-    );
-  }
-}
-
-(window.<span style="color:#a6e22e">synaPortals</span> <span style="color:#f92672">||</span> (window.<span style="color:#a6e22e">synaPortals</span> <span style="color:#f92672">=</span> {})).<span style="color:#a6e22e">hello</span> <span style="color:#f92672">=</span> {
-  <span style="color:#a6e22e">component</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">Hello</span>,
-  <span style="color:#a6e22e">container</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;#hello [data-portal]&#39;</span>,
-};
-</code></pre></div><p>The <code>#hello [data-portal]</code> is where your component renders. <code>[data-portal]</code> is a <code>div</code> tag inside your <code>react-portal</code> fragment and <code>hello</code> in this example, is the fragment&rsquo;s filename.</p>
-<p>Keep in mind that JSX is not supported by browsers. Please checkout our <a href="https://github.com/okkur/syna/blob/master/exampleSite/webpack.config.js">example Webpack config</a> and the required <a href="https://github.com/okkur/syna/blob/master/exampleSite/package.json">dependencies and commands</a>.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="content-body col-12 content px-0 text-body"><p><strong>Contactez-nous</strong></p>
 <hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>Note that the mentioned directory in your website&rsquo;s root directory. If the directory doesn&rsquo;t exist, create it in that path. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
-</div>
+<p>Vous pouvez nous contactez sur les différents canaux suivants :</p>
+<ul>
+<li>email : <a href="mailto:clubleoglis@gmail.com">clubleoglis@gmail.com</a></li>
+<li>téléphone : 07.67.14.03.82</li>
+</ul>
+<p>Notre adresse :</p>
+<pre><code> Léogliss, Maison des associations
+ 3 place Joanne
+ 33850 Léognan
+</code></pre></div>
     </article>
   </div>
     </div>

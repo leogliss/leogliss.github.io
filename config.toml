@@ -83,14 +83,19 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 20
 
 [[menu.main]]
-  url = "/docs"
+  url = "/inscriptions"
   name = "Inscriptions"
   weight = 30
 
 [[menu.main]]
-  url = "/about"
+  url = "/photos"
   name = "Photos"
   weight = 40
+
+[[menu.main]]
+  url = "/contact"
+  name = "Contact"
+  weight = 50
 
 [[menu.footer]]
   url = "http://helloasso.com/associations/leogliss"

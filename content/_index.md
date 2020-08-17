@@ -1,5 +1,5 @@
 +++
-date = "2018-07-20"
-title = "Syna Theme"
-description = "Open Source Theme from Okkur for your next project"
+date = "2020-08-16"
+title = "Léogliss"
+description = "Le site du club Léogliss"
 +++

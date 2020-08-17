@@ -25,7 +25,7 @@
 		"themes/syna/assets/styles/fontawesome/_variables.scss",
 		"themes/syna/assets/styles/bootstrap/bootstrap.scss",
 		"themes/syna/assets/styles/bootstrap/_functions.scss",
-		"assets/styles/bootstrap/_variables.scss",
+		"themes/syna/assets/styles/bootstrap/_variables.scss",
 		"themes/syna/assets/styles/bootstrap/_mixins.scss",
 		"themes/syna/assets/styles/bootstrap/vendor/_rfs.scss",
 		"themes/syna/assets/styles/bootstrap/mixins/_deprecate.scss",

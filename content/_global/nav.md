@@ -15,10 +15,10 @@ sticky = true
 # Branding options
 [asset]
   image = "logo.svg"
-  text = "Syna"
+  text = "Léogliss"
 
 [repo_button]
-  url = "http://helloasso.com/associations/leogliss"
-  text = "HelloAsso" 
-  icon = "" 
+  url = "https://www.facebook.com/leogliss/"
+  text = "Léogliss" 
+  icon = "fab fa-facebook" 
 +++

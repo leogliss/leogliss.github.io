@@ -397,7 +397,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -405,18 +405,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -425,7 +425,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -434,7 +434,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -468,9 +468,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -611,7 +611,8 @@ weight = 10
 </ul>
 </li>
 </ul>
-<p><a href="#global-fragments">Global fragments</a> such as nav and footer and copyright can be located in the <code>content/_global</code> directory.
+<p><a href="#global-fragments"    >Global fragments</a>
+ such as nav and footer and copyright can be located in the <code>content/_global</code> directory.
 Fragments located in this directory would appear in every page unless there&rsquo;s another fragment with the same name closer to the page.</p>
 <h4 id="global-fragments">Global Fragments</h4>
 <p>For fragments of a website, that need to show up on every page, we have global fragments.
@@ -620,7 +621,8 @@ All fragments within this directory are rendered on all pages by default.<br>
 <em>To prevent the page being rendered as a separate page on your website, we define the whole directory as a <code>headless</code> bundle within the index.md file.</em>
 To overwrite a global fragment create a per page fragment with the same filename.
 This would overwrite the global one.</p>
-<p>In order to hide a global fragment in a specific page or section, you can use the <a href="/docs/global-variables//#hide"><code>hide</code> global variable</a>.</p>
+<p>In order to hide a global fragment in a specific page or section, you can use the <a href="/docs/global-variables//#hide"    >&lt;code&gt;hide&lt;/code&gt; global variable</a>
+.</p>
 <p>Aside from the <code>content/_global/</code> directory, you can create <code>_global/</code> directory in any section&rsquo;s directory (<code>content/[section]/_global/</code>).
 Each section can have global fragments and if there are multiple fragments with the same name, the fragment closest to the page would override the others.</p>
 <h5 id="disabling-a-global-fragment-in-specific-pagessections">Disabling a global fragment in specific pages/sections</h5>
@@ -634,8 +636,10 @@ fragment = &quot;nav&quot;
 disabled = true
 +++
 </code></pre><h3 id="built-in-fragments">Built-in fragments</h3>
-<p>There are several pre-bundled fragments already available in Syna. You can see the full list and their documentation in the <a href="/fragments/">fragments</a> section.
-These fragments make use of some <a href="/docs/global-variables/">global variables</a> along with their own variables which are mentioned in the fragment&rsquo;s page.</p>
+<p>There are several pre-bundled fragments already available in Syna. You can see the full list and their documentation in the <a href="/fragments/"    >fragments</a>
+ section.
+These fragments make use of some <a href="/docs/global-variables/"    >global variables</a>
+ along with their own variables which are mentioned in the fragment&rsquo;s page.</p>
 <h3 id="custom-fragments">Custom fragments</h3>
 <p>You can add your own custom fragment by creating a new layout file within your website&rsquo;s <code>layouts/partials/fragments/</code> directory.
 If this path doesn&rsquo;t exist yet, you can create it beforehand.</p>
@@ -660,7 +664,8 @@ As of right now there are three fragments using menus:</p>
 <li><strong>footer</strong>: <code>menu.footer</code> and <code>menu.footer_social</code></li>
 <li><strong>copyright</strong>: <code>menu.copyright_footer</code></li>
 </ul>
-<p><em>Whenever Hugo allows for resource menus or when we figure out a way to have menu features with frontmatter arrays this would change and menus would be configurable with resource variables like everything else. The change would be breaking. So when updating the theme please read the <a href="https://github.com/okkur/syna/blob/master/CHANGELOG.md">CHANGELOG</a> and check for breaking changes.</em></p>
+<p><em>Whenever Hugo allows for resource menus or when we figure out a way to have menu features with frontmatter arrays this would change and menus would be configurable with resource variables like everything else. The change would be breaking. So when updating the theme please read the <a href="https://github.com/okkur/syna/blob/master/CHANGELOG.md"     target="_blank">CHANGELOG</a>
+ and check for breaking changes.</em></p>
 <p>Furthermore we use two keywords, that can&rsquo;t be used to create pages.
 Both <code>ìndex</code> and <code>global</code> have a special meaning within the Syna fragment and using them separately might lead to issues.</p>
 </div>
@@ -681,15 +686,6 @@ Both <code>ìndex</code> and <code>global</code> have a special meaning within t
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -728,8 +724,8 @@ Both <code>ìndex</code> and <code>global</code> have a special meaning within t
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

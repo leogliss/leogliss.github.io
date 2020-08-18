@@ -395,7 +395,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -403,18 +403,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -423,7 +423,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -432,7 +432,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -466,9 +466,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -550,8 +550,9 @@ html {
 action on various sub pages. It can display a logo/image, title, subtitle and
 various call to action buttons. Additionally a background image can be
 configured or particleJS can be enabled.</p>
-<p>Hero fragment has support for <a href="https://github.com/okkur/syna/blob/master/docs/README.md#image-resource-fallthrough">image resource
-fallthrough</a>.</p></div>
+<p>Hero fragment has support for <a href="https://github.com/okkur/syna/blob/master/docs/README.md#image-resource-fallthrough"     target="_blank">image resource
+fallthrough</a>
+.</p></div>
     </article>
   </div>
     </div>
@@ -563,18 +564,18 @@ fallthrough</a>.</p></div>
 <header id="hero" class="fragment hero">
     <div
       style="background-image:url(/images/header.jpg)"
-      class="jumbotron text-center header-image mb-0 bg-secondary">
+      class="jumbotron text-center header-image mb-0 bg-primary">
     <div id="hero-particles-js" class="hero-particles particles-js"></div>
       <div class="hero-image-container row justify-content-center align-items-start">
         <img
           class="hero-image overlay img-fluid"
           src="/images/logo.svg"
-          alt="Syna Theme"
+          alt="Léogliss"
           style="width: 500px !important;"
         ></img>
       </div>
       <div class="hero-subtitle-container row justify-content-center align-items-start">
-        <h1 class="hero-subtitle overlay jumbotron-heading my-4 text-body">Showcase your next project</h1>
+        <h1 class="hero-subtitle overlay jumbotron-heading my-4 text-body">L&rsquo;association de roller de Léognan</h1>
       </div><div class="hero-buttons">
       <a class="overlay btn btn-lg m-2 btn-info " href="/#">
         <div class="column justify-content-center align-content-center">Button</div>
@@ -793,17 +794,21 @@ inside the hero fragment&rsquo;s directory.</p>
 <em>default: initial</em></p>
 <p>Sets minimum height of hero fragment.</p>
 <h4 id="header">header</h4>
-<p><em>type: <a href="/docs/global-variables/#asset">asset object</a></em></p>
+<p><em>type: <a href="/docs/global-variables/#asset"    >asset object</a>
+</em></p>
 <p>Background image of the Hero fragment.</p>
 <h4 id="asset">asset</h4>
-<p><em>type: <a href="/docs/global-variables/#asset">asset object</a></em></p>
+<p><em>type: <a href="/docs/global-variables/#asset"    >asset object</a>
+</em></p>
 <p>The asset is displayed on the Hero fragment instead of the <code>title</code> and can be used to display a logo.</p>
 <p><strong>Note:</strong> If set, title will not be shown and subtitle will be displayed in a bigger size.</p>
 <h4 id="buttons">buttons</h4>
 <p><em>type: array of objects</em></p>
 <p>Call to action buttons displayed after title or asset and subtitle.</p>
-<p>Visit <a href="/fragments/buttons/#docs">Buttons fragment page (documentation section)</a> for documentation on which variables to use.</p>
-<p><a href="/docs/global-variables/">Global variables</a> are documented as well and have been omitted from this page.</p>
+<p>Visit <a href="/fragments/buttons/#docs"    >Buttons fragment page (documentation section)</a>
+ for documentation on which variables to use.</p>
+<p><a href="/docs/global-variables/"    >Global variables</a>
+ are documented as well and have been omitted from this page.</p>
 </div>
     </article>
   </div>
@@ -822,15 +827,6 @@ inside the hero fragment&rsquo;s directory.</p>
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -869,8 +865,8 @@ inside the hero fragment&rsquo;s directory.</p>
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

@@ -395,7 +395,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -403,18 +403,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -423,7 +423,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -432,7 +432,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -466,9 +466,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -984,13 +984,17 @@ You can pay for the product by filling this form (provided by Stripe).
     </div>
   </div>
 <div class="content-body col-12 content px-0 text-body"><p>Stripe fragment creates a form with a Stripe element inside, which is used to create payments for the users.</p>
-<p>It requires a backend for creating the customer and charge for Stripe. An example can be found at <a href="https://syna.okkur.org/stripe-gcf">here</a> which can be deployed on Google Cloud Functions and works out of the box.</p>
+<p>It requires a backend for creating the customer and charge for Stripe. An example can be found at <a href="https://syna.okkur.org/stripe-gcf"     target="_blank">here</a>
+ which can be deployed on Google Cloud Functions and works out of the box.</p>
 <p>The use of a backend is also useful for saving other information from the user such as the product they selected (in case you are providing more than one products) or other metadata.</p>
 <h3 id="events">Events</h3>
-<p>This fragment uses the <a href="/docs/events/">Events</a> api by default.</p>
+<p>This fragment uses the <a href="/docs/events/"    >Events</a>
+ api by default.</p>
 <h4 id="subscribers">Subscribers</h4>
 <h5 id="pricingchange">pricing:change</h5>
-<p>This event is published by the <a href="/fragments/pricing/#events">Pricing fragment</a>. It can also be published by <a href="/docs/events/#event-urls">event urls</a>.</p>
+<p>This event is published by the <a href="/fragments/pricing/#events"    >Pricing fragment</a>
+. It can also be published by <a href="/docs/events/#event-urls"    >event urls</a>
+.</p>
 <h6 id="product">product</h6>
 <p><em>type: string</em></p>
 <p>If provided, this variable will override the preconfigured <code>product</code> variable and will be displayed on top of the form.</p>
@@ -999,14 +1003,17 @@ You can pay for the product by filling this form (provided by Stripe).
 <p>Payment metadata. This variable is not displayed to the user but will be sent to the server with the form data.</p>
 <h6 id="price">price</h6>
 <p><em>type: string</em></p>
-<p>The price that will be charged to the user&rsquo;s account. The value should follow the same rules as <a href="#prices-text">prices.text</a>.</p>
+<p>The price that will be charged to the user&rsquo;s account. The value should follow the same rules as <a href="#prices-text"    >prices.text</a>
+.</p>
 <h6 id="currency">currency</h6>
 <p><em>type: string</em></p>
-<p>The currency in which the user will be charged. The value should follow the same rules as <a href="#prices-currency">prices.currency</a>.</p>
+<p>The currency in which the user will be charged. The value should follow the same rules as <a href="#prices-currency"    >prices.currency</a>
+.</p>
 <h3 id="variables">Variables</h3>
 <h4 id="post_url">post_url</h4>
 <p><em>type: string</em></p>
-<p>Form data will be sent to this url. The url should point to an api which can handle Stripe&rsquo;s charge customer api. An <a href="https://syna.okkur.org/stripe-gcf">example</a> is provided for more information.</p>
+<p>Form data will be sent to this url. The url should point to an api which can handle Stripe&rsquo;s charge customer api. An <a href="https://syna.okkur.org/stripe-gcf"     target="_blank">example</a>
+ is provided for more information.</p>
 <h4 id="stripe_token">stripe_token</h4>
 <p><em>type: string</em></p>
 <p>Publishable API token from your Stripe account should</p>
@@ -1026,17 +1033,21 @@ You can pay for the product by filling this form (provided by Stripe).
 <p>The price that will be charged to the user&rsquo;s account. This variable is shown to the user as is but it will be converted to a number with no decimals when it is submitted. The value can be anything that can be formatted to a number, for example: <code>20.00$</code>, <code>20</code>, <code>19.95$/mo</code>.</p>
 <h5 id="pricescurrency">prices.currency</h5>
 <p><em>type: string</em></p>
-<p>The currency in which the user will be charged. The value should be the three-letter ISO coded of the currency. You can find the appropriate ISO code <a href="https://stripe.com/docs/currencies#presentment-currencies">here</a>.</p>
+<p>The currency in which the user will be charged. The value should be the three-letter ISO coded of the currency. You can find the appropriate ISO code <a href="https://stripe.com/docs/currencies#presentment-currencies"     target="_blank">here</a>
+.</p>
 <h4 id="user_input">user_input</h4>
 <p><em>type: object</em></p>
 <p>This variable will create a field and will display either the field itself or a button that will switch the form to editable mode. The field is displayed based on whether the <code>prices</code> field contains any items or not.</p>
 <h5 id="user_inputdefault">user_input.default</h5>
 <p><em>type: string</em></p>
-<p>Default value in the editable price field. The value should follow the same rules as <a href="#prices-text">prices.text</a>.</p>
+<p>Default value in the editable price field. The value should follow the same rules as <a href="#prices-text"    >prices.text</a>
+.</p>
 <h5 id="user_inputcurrencies">user_input.currencies</h5>
 <p><em>type: array of strings</em></p>
-<p>The currency in which the user will be charged. The value should follow the same rules as <a href="#prices-currency">prices.currency</a>.</p>
-<p><a href="/docs/global-variables/">Global variables</a> are documented as well and have been omitted from this page.</p>
+<p>The currency in which the user will be charged. The value should follow the same rules as <a href="#prices-currency"    >prices.currency</a>
+.</p>
+<p><a href="/docs/global-variables/"    >Global variables</a>
+ are documented as well and have been omitted from this page.</p>
 </div>
     </article>
   </div>
@@ -1055,15 +1066,6 @@ You can pay for the product by filling this form (provided by Stripe).
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -1102,8 +1104,8 @@ You can pay for the product by filling this form (provided by Stripe).
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

@@ -14,7 +14,7 @@
   <meta name="google" content="notranslate" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="description" content="Fragments themselves are Hugo partials that are located in layouts/partials/fragments/. Partials built into Syna are stored within the theme&rsquo;s layout directory. Hugo enables local or per website overwrites of layouts and partials. For more details checkout Hugo&rsquo;s template lookup order.
+  <meta name="description" content="Fragments themselves are Hugo partialsthat are located in layouts/partials/fragments/. Partials built into Syna are stored within the theme&rsquo;s layout directory. Hugo enables local or per website overwrites of layouts and partials. For more details checkout Hugo&amp;rsquo;s template lookup order.
 The default layout single.html is used to render each page. For list pages we use list.html layout. These layouts don&rsquo;t need to be explicitly mentioned
 The rendering code flow of Syna would do the following:">
   <meta property="og:title" content="Fragments Implementation" />
@@ -25,7 +25,7 @@ The rendering code flow of Syna would do the following:">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Fragments Implementation &amp;middot; Léogliss" />
-  <meta name="twitter:description" content="Fragments themselves are Hugo partials that are located in layouts/partials/fragments/. Partials built into Syna are stored within the theme&rsquo;s layout directory. Hugo enables local or per website overwrites of layouts and partials. For more details checkout Hugo&rsquo;s template lookup order.
+  <meta name="twitter:description" content="Fragments themselves are Hugo partialsthat are located in layouts/partials/fragments/. Partials built into Syna are stored within the theme&rsquo;s layout directory. Hugo enables local or per website overwrites of layouts and partials. For more details checkout Hugo&amp;rsquo;s template lookup order.
 The default layout single.html is used to render each page. For list pages we use list.html layout. These layouts don&rsquo;t need to be explicitly mentioned
 The rendering code flow of Syna would do the following:">
   <meta name="twitter:url" content="/docs/fragments-implementation/" />
@@ -399,7 +399,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -407,18 +407,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -427,7 +427,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -436,7 +436,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -470,9 +470,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -552,10 +552,12 @@ html {
       <h2>Fragments Implementation</h2>
     </div>
   </div>
-<div class="content-body col-12 content px-0 text-body"><p>Fragments themselves are <a href="https://gohugo.io/templates/partials/">Hugo partials</a> that are located in <code>layouts/partials/fragments/</code>.
+<div class="content-body col-12 content px-0 text-body"><p>Fragments themselves are <a href="https://gohugo.io/templates/partials/"     target="_blank">Hugo partials</a>
+ that are located in <code>layouts/partials/fragments/</code>.
 Partials built into Syna are stored within the theme&rsquo;s layout directory.
 Hugo enables local or per website overwrites of layouts and partials.
-For more details checkout <a href="https://gohugo.io/templates/lookup-order/">Hugo&rsquo;s template lookup order</a>.</p>
+For more details checkout <a href="https://gohugo.io/templates/lookup-order/"     target="_blank">Hugo&amp;rsquo;s template lookup order</a>
+.</p>
 <p>The default layout <code>single.html</code> is used to render each page. For list pages we use <code>list.html</code> layout.
 <strong>These layouts don&rsquo;t need to be explicitly mentioned</strong></p>
 <p>The rendering code flow of Syna would do the following:</p>
@@ -587,7 +589,8 @@ For more details checkout <a href="https://gohugo.io/templates/lookup-order/">Hu
 <p><img src="./fragments-01.png" alt="This is how fragments are rendered in the single layout"></p>
 <h3 id="creating-new-fragments">Creating new fragments</h3>
 <p>In order to create a custom fragment for your website create a new layout file named after your fragment and place it under <code>[project_root]/layouts/partials/fragments/</code>.
-Fragments are partials and follow the same rules. If you are not familiar with partials more details are available in the <a href="https://gohugo.io/templates/partials/">Hugo documentation</a>.</p>
+Fragments are partials and follow the same rules. If you are not familiar with partials more details are available in the <a href="https://gohugo.io/templates/partials/"     target="_blank">Hugo documentation</a>
+.</p>
 </div>
     </article>
   </div>
@@ -606,15 +609,6 @@ Fragments are partials and follow the same rules. If you are not familiar with p
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -653,8 +647,8 @@ Fragments are partials and follow the same rules. If you are not familiar with p
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

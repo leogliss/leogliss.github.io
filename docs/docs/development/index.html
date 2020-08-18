@@ -14,7 +14,7 @@
   <meta name="google" content="notranslate" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="description" content="We develop our front-end code in the assets/ directory which allows us to have a development directory that would be built to be production ready and put inside the static/ and resources/ directories (which are the directories Hugo looks into for front-end files) using Webpack and Hugo&rsquo;s own resource pipelines. To start the build process for development run the following commands:
+  <meta name="description" content="We develop our front-end code in the assets/ directory which allows us to have a development directory that would be built to be production ready and put inside the static/ and resources/ directories (which are the directories Hugo looks into for front-end files) using Webpackand Hugo&rsquo;s own resource pipelines. To start the build process for development run the following commands:
 make depmake dev # Or make build for production buildPrerequisites: node and yarn need to be installed on your system.">
   <meta property="og:title" content="Development" />
 <meta property="og:description" content="" />
@@ -24,7 +24,7 @@ make depmake dev # Or make build for production buildPrerequisites: node and y
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Development &amp;middot; Léogliss" />
-  <meta name="twitter:description" content="We develop our front-end code in the assets/ directory which allows us to have a development directory that would be built to be production ready and put inside the static/ and resources/ directories (which are the directories Hugo looks into for front-end files) using Webpack and Hugo&rsquo;s own resource pipelines. To start the build process for development run the following commands:
+  <meta name="twitter:description" content="We develop our front-end code in the assets/ directory which allows us to have a development directory that would be built to be production ready and put inside the static/ and resources/ directories (which are the directories Hugo looks into for front-end files) using Webpackand Hugo&rsquo;s own resource pipelines. To start the build process for development run the following commands:
 make depmake dev # Or make build for production buildPrerequisites: node and yarn need to be installed on your system.">
   <meta name="twitter:url" content="/docs/development/" />
         <meta property="og:image" content="">
@@ -397,7 +397,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -405,18 +405,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -425,7 +425,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -434,7 +434,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -468,9 +468,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -550,7 +550,8 @@ html {
       <h2>Development</h2>
     </div>
   </div>
-<div class="content-body col-12 content px-0 text-body"><p>We develop our front-end code in the <code>assets/</code> directory which allows us to have a development directory that would be built to be production ready and put inside the <code>static/</code> and <code>resources/</code> directories (which are the directories Hugo looks into for front-end files) using <a href="https://webpack.js.org/">Webpack</a> and Hugo&rsquo;s own resource pipelines.
+<div class="content-body col-12 content px-0 text-body"><p>We develop our front-end code in the <code>assets/</code> directory which allows us to have a development directory that would be built to be production ready and put inside the <code>static/</code> and <code>resources/</code> directories (which are the directories Hugo looks into for front-end files) using <a href="https://webpack.js.org/"     target="_blank">Webpack</a>
+ and Hugo&rsquo;s own resource pipelines.
 To start the build process for development run the following commands:</p>
 <pre><code>make dep
 make dev # Or make build for production build
@@ -575,7 +576,8 @@ This allows us to have lighter pages in most cases.
 Within the <code>assets/js/</code> directory there is an <code>index.js</code> file that is the main script, which is necessary on all pages.
 Every other script is needed by the fragment of the same name.
 For example <code>hero.js</code> is needed by the <code>hero</code> fragment.</p>
-<p>If you want to add an extra script for a specific fragment, you need to add that script as an entry point in the <a href="https://github.com/okkur/syna/blob/master/webpack.config.js">webpack configuration file</a>.
+<p>If you want to add an extra script for a specific fragment, you need to add that script as an entry point in the <a href="https://github.com/okkur/syna/blob/master/webpack.config.js"     target="_blank">webpack configuration file</a>
+.
 Then import that script inside the fragment (using the <code>script</code> tag).</p>
 <p>Transpiled and bundled JS files are located inside <code>assets/scripts/</code> directory and are generated using Webpack.</p>
 <h4 id="react-support">React support</h4>
@@ -596,7 +598,9 @@ To use this feature you can add a new <code>react-portal</code> to your page, wr
   <span style="color:#a6e22e">container</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;#hello [data-portal]&#39;</span>,
 };
 </code></pre></div><p>The <code>#hello [data-portal]</code> is where your component renders. <code>[data-portal]</code> is a <code>div</code> tag inside your <code>react-portal</code> fragment and <code>hello</code> in this example, is the fragment&rsquo;s filename.</p>
-<p>Keep in mind that JSX is not supported by browsers. Please checkout our <a href="https://github.com/okkur/syna/blob/master/exampleSite/webpack.config.js">example Webpack config</a> and the required <a href="https://github.com/okkur/syna/blob/master/exampleSite/package.json">dependencies and commands</a>.</p>
+<p>Keep in mind that JSX is not supported by browsers. Please checkout our <a href="https://github.com/okkur/syna/blob/master/exampleSite/webpack.config.js"     target="_blank">example Webpack config</a>
+ and the required <a href="https://github.com/okkur/syna/blob/master/exampleSite/package.json"     target="_blank">dependencies and commands</a>
+.</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -623,15 +627,6 @@ To use this feature you can add a new <code>react-portal</code> to your page, wr
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -670,8 +665,8 @@ To use this feature you can add a new <code>react-portal</code> to your page, wr
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

@@ -395,7 +395,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -403,18 +403,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -423,7 +423,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -432,7 +432,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -466,9 +466,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -550,13 +550,16 @@ html {
 information, achievements, a bio and more.</p>
 <p>This fragment need to always be placed in a subdirectory that contains the
 fragment content file and the specific content files of each member.</p>
-<p>Since member fragment can display an image per member, it has support for <a href="https://github.com/okkur/syna/blob/master/docs/README.md#image-resource-fallthrough">image
+<p>Since member fragment can display an image per member, it has support for <a href="https://github.com/okkur/syna/blob/master/docs/README.md#image-resource-fallthrough"     target="_blank">image
 resource
-fallthrough</a>.</p>
+fallthrough</a>
+.</p>
 <p>There are two modes of showing members supported by members fragment.</p>
 <ul>
-<li><a href="#single-member">Single member</a></li>
-<li><a href="#members">Multiple members</a></li>
+<li><a href="#single-member"    >Single member</a>
+</li>
+<li><a href="#members"    >Multiple members</a>
+</li>
 </ul></div>
     </article>
   </div>
@@ -633,11 +636,15 @@ date = "2017-10-17"
 <p>position = &ldquo;Lead Gopherineer&rdquo;
 company = &ldquo;Okkur Labs&rdquo;</p>
 <p>reports_to = &ldquo;CTO&rdquo;
-lives_in = &ldquo;<a href="https://www.google.com/maps/place/Munich,+Germany/">Munich, Germany</a>&rdquo;
+lives_in = &ldquo;<a href="https://www.google.com/maps/place/Munich,&#43;Germany/"     target="_blank">Munich, Germany</a>
+&rdquo;
 scope = [
-&ldquo;UX for <a href="#">Food Dashboard</a>&quot;,
-&ldquo;Maintainer for <a href="#">Goper Team A</a>&quot;,
-&ldquo;Gopher <a href="#">Community Administration</a>&rdquo;
+&ldquo;UX for <a href="#"    >Food Dashboard</a>
+&quot;,
+&ldquo;Maintainer for <a href="#"    >Goper Team A</a>
+&quot;,
+&ldquo;Gopher <a href="#"    >Community Administration</a>
+&rdquo;
 ]</p>
 <p>[[icons]]
 icon = &ldquo;fab fa-linkedin-in&rdquo;
@@ -871,11 +878,15 @@ weight = 0
 date = "2017-10-17"
 <p>position = &ldquo;Lead Gopherineer&rdquo;
 reports_to = &ldquo;CTO&rdquo;
-lives_in = &ldquo;<a href="https://www.google.com/maps/place/Munich,+Germany/">Munich, Germany</a>&rdquo;
+lives_in = &ldquo;<a href="https://www.google.com/maps/place/Munich,&#43;Germany/"     target="_blank">Munich, Germany</a>
+&rdquo;
 scope = [
-&ldquo;UX for <a href="#">Food Dashboard</a>&quot;,
-&ldquo;Maintainer for <a href="#">Goper Team A</a>&quot;,
-&ldquo;Gopher <a href="#">Community Administration</a>&rdquo;
+&ldquo;UX for <a href="#"    >Food Dashboard</a>
+&quot;,
+&ldquo;Maintainer for <a href="#"    >Goper Team A</a>
+&quot;,
+&ldquo;Gopher <a href="#"    >Community Administration</a>
+&rdquo;
 ]</p>
 <p>[[icons]]
 icon = &ldquo;fab fa-linkedin-in&rdquo;
@@ -928,13 +939,16 @@ Morbi efficitur dui sit amet orci porttitor, nec tincidunt turpis elementum.</p>
 <p><em>type: array of strings</em><br>
 <em>Markdown enabled</em></p>
 <h4 id="icons">icons</h4>
-<p><em>type: array of <a href="/docs/global-variables/#asset">asset object</a>s</em></p>
+<p><em>type: array of <a href="/docs/global-variables/#asset"    >asset object</a>
+s</em></p>
 <p>Social media and other icons.</p>
 <h4 id="asset">asset</h4>
-<p><em>type: <a href="/docs/global-variables/#asset">asset object</a></em><br>
+<p><em>type: <a href="/docs/global-variables/#asset"    >asset object</a>
+</em><br>
 <em>size: 250x250</em></p>
 <p>Member avatar.</p>
-<p><a href="/docs/global-variables/">Global variables</a> are documented as well and have been omitted from this page.</p>
+<p><a href="/docs/global-variables/"    >Global variables</a>
+ are documented as well and have been omitted from this page.</p>
 </div>
     </article>
   </div>
@@ -953,15 +967,6 @@ Morbi efficitur dui sit amet orci porttitor, nec tincidunt turpis elementum.</p>
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -1000,8 +1005,8 @@ Morbi efficitur dui sit amet orci porttitor, nec tincidunt turpis elementum.</p>
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

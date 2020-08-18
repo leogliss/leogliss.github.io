@@ -17,7 +17,7 @@
   <meta name="description" content="There are a few frontmatter variables that can be used for all fragments. The variables are as follows:
 fragment type: string
 Required for every fragment
-Specifies what fragment the current file controls. Checkout Fragment Implementation for more info.
+Specifies what fragment the current file controls. Checkout Fragment Implementationfor more info.
 weight type: number
 Required for every fragment
 This variable is used for ordering fragments in a page. It can be empty but it would cause the fragment to be sorted in an unexpected manner.">
@@ -32,7 +32,7 @@ This variable is used for ordering fragments in a page. It can be empty but it w
   <meta name="twitter:description" content="There are a few frontmatter variables that can be used for all fragments. The variables are as follows:
 fragment type: string
 Required for every fragment
-Specifies what fragment the current file controls. Checkout Fragment Implementation for more info.
+Specifies what fragment the current file controls. Checkout Fragment Implementationfor more info.
 weight type: number
 Required for every fragment
 This variable is used for ordering fragments in a page. It can be empty but it would cause the fragment to be sorted in an unexpected manner.">
@@ -407,7 +407,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -415,18 +415,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -435,7 +435,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -444,7 +444,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -478,9 +478,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -565,7 +565,8 @@ variables are as follows:</p>
 <h4 id="fragment">fragment</h4>
 <p><em>type: string</em><br>
 <strong>Required for every fragment</strong></p>
-<p>Specifies what fragment the current file controls. Checkout <a href="/docs/fragments-implementation/">Fragment Implementation</a> for more info.</p>
+<p>Specifies what fragment the current file controls. Checkout <a href="/docs/fragments-implementation/"    >Fragment Implementation</a>
+ for more info.</p>
 <h4 id="weight">weight</h4>
 <p><em>type: number</em><br>
 <strong>Required for every fragment</strong></p>
@@ -574,7 +575,8 @@ variables are as follows:</p>
 <p>Set the background of the fragment.</p>
 <p>Background also affects the text color of the fragment&rsquo;s content.
 For the background colors of <code>white</code>, <code>light</code>, <code>secondary</code> and <code>primary</code> we use Bootstrap&rsquo;s <code>text_dark</code> class on content and for other backgrounds, we use <code>text_light</code>.</p>
-<p>List of all supported colors can be found in <a href="/docs/styling/#supported-colors">supported colors</a> section of the docs.</p>
+<p>List of all supported colors can be found in <a href="/docs/styling/#supported-colors"    >supported colors</a>
+ section of the docs.</p>
 <h4 id="title">title</h4>
 <p><em>type: string</em></p>
 <p>Set title of the fragment</p>
@@ -599,7 +601,8 @@ For the background colors of <code>white</code>, <code>light</code>, <code>secon
 Please make sure to provide the correct size as documented for each fragment&rsquo;s asset object.</p>
 <h5 id="assetimage">asset.image</h5>
 <p><em>type: string</em></p>
-<p>Link to an image file. <code>asset.image</code> supports the build in <a href="/docs/image-fallthrough/">image fallthrough mechanism</a>.
+<p>Link to an image file. <code>asset.image</code> supports the build in <a href="/docs/image-fallthrough/"    >image fallthrough mechanism</a>
+.
 If <code>asset.image</code> is set, <code>asset.icon</code> will be ignored.</p>
 <h5 id="asseticon">asset.icon</h5>
 <p><em>type: string</em></p>
@@ -613,10 +616,12 @@ If <code>asset.image</code> is set, <code>asset.icon</code> will be ignored.</p>
 <h4 id="disable">disable</h4>
 <p><em>type: boolean</em></p>
 <p>If set to <code>true</code>, Syna will not register the fragment. This is useful for drafting fragments.</p>
-<p><strong>NOTE:</strong> <code>disable</code> doesn&rsquo;t register the fragment at all. This means you can not remove a global fragment in a specific page by a duplicate disabled fragment. In order to hide a global fragment in a page, use <a href="#hide"><code>hide</code></a>.</p>
+<p><strong>NOTE:</strong> <code>disable</code> doesn&rsquo;t register the fragment at all. This means you can not remove a global fragment in a specific page by a duplicate disabled fragment. In order to hide a global fragment in a page, use <a href="#hide"    >&lt;code&gt;hide&lt;/code&gt;</a>
+.</p>
 <h4 id="hide">hide</h4>
 <p><em>type: boolean</em></p>
-<p>If set to <code>true</code>, Syna will not call the fragment and will hide it. Useful for hiding a global fragment in the page. For more information, please checkout <a href="/docs/fragments//#global-fragments">global fragments</a>.</p>
+<p>If set to <code>true</code>, Syna will not call the fragment and will hide it. Useful for hiding a global fragment in the page. For more information, please checkout <a href="/docs/fragments//#global-fragments"    >global fragments</a>
+.</p>
 </div>
     </article>
   </div>
@@ -635,15 +640,6 @@ If <code>asset.image</code> is set, <code>asset.icon</code> will be ignored.</p>
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -682,8 +678,8 @@ If <code>asset.image</code> is set, <code>asset.icon</code> will be ignored.</p>
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

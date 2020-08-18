@@ -397,7 +397,7 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Syna">
+        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -405,18 +405,18 @@ html {
     <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/"
+                  href="/#leclub"
                 >
                 Le club
               </a>
               
             </li><li class="nav-item ">
               <a
-                  class="nav-link"
+                  class="nav-link anchor"
                 
-                  href="/fragments"
+                  href="/#lescours"
                 >
                 Les cours
               </a>
@@ -425,7 +425,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/inscriptions"
+                  href="/fragments/pricing"
                 >
                 Inscriptions
               </a>
@@ -434,7 +434,7 @@ html {
               <a
                   class="nav-link"
                 
-                  href="/photos"
+                  href="/fragments/portfolio"
                 >
                 Photos
               </a>
@@ -468,9 +468,9 @@ html {
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
-      <a class="btn btn-light ignore-color-change" href="http://helloasso.com/associations/leogliss" role="button" title="Github">
-        <i class="fab fa-github mr-2"></i>
-        HelloAsso
+      <a class="btn btn-light ignore-color-change" href="https://www.facebook.com/leogliss/" role="button" title="Github">
+        <i class="fab fa-facebook mr-2"></i>
+        Léogliss
       </a>
     </div>
 </nav>
@@ -552,7 +552,8 @@ html {
   </div>
 <div class="content-body col-12 content px-0 text-body"><p>Syna has a built-in communication stream that is mostly used to send messages between fragments. Although the stream is not limited to fragments, it can be used to publish anything and anywhere in the code, a subscriber can be added that can listen to the published events.</p>
 <p>The stream has three main functions, <code>publish</code>, <code>subscribe</code> and <code>unsubscribe</code>. Any event published using the <code>publish</code> function can be listened to by <code>subscribe</code> function, allowing easy, decoupled and isolated functionalities inside fragments and the whole page.</p>
-<p>Events can be triggered either by directly calling the <code>publish</code> function on the <code>window.syna.stream</code> object or by an special url query which is explained <a href="#event-urls">below</a>.</p>
+<p>Events can be triggered either by directly calling the <code>publish</code> function on the <code>window.syna.stream</code> object or by an special url query which is explained <a href="#event-urls"    >below</a>
+.</p>
 <h3 id="publish-function"><code>publish</code> function</h3>
 <p>You can call <code>publish</code> function anywhere in your code. In the built-in fragments, it&rsquo;s mostly called on buttons&rsquo; click handlers.</p>
 <p>The function accepts two arguments, <code>topic</code> and <code>args</code></p>
@@ -570,7 +571,8 @@ html {
 </code></pre><p>In this example, when the page <code>/fragments/stripe/</code> is opened, the event stream will translate the query, publishing a <code>pricing:change</code> event with <code>product</code>, <code>price</code> and <code>currency</code> parameters attached to it. If there is an <code>event</code> attribute in the query, every other attribute will be published as it&rsquo;s parameter.</p>
 <p><strong>NOTE:</strong> Event urls need to be Base64 encrypted. In order for the example above to work you need to add <code>unsafeEvents = true</code> to your <code>config.toml</code> file. Base64 events need to have <code>e</code> attribute inside them with the entire encrypted query as it&rsquo;s value. The url above will look like this in the Base64 format.</p>
 <pre><code>/fragments/stripe/?e=P2V2ZW50PXByaWNpbmc6Y2hhbmdlJnByb2R1Y3Q9U3RhcnRpbmcgcGxhbiZwcmljZT0kOS45OS9tbyZjdXJyZW5jeT11c2Q=
-</code></pre><p><em>To convert your event to Base64, use an online service such as <a href="base64encode.org">base64encode.org</a> or you can call <code>btoa</code> function in your browser&rsquo;s devtools console. For example: <code>btoa('?event=...&amp;key=...&amp;key2=...</code>)</em></p>
+</code></pre><p><em>To convert your event to Base64, use an online service such as <a href="base64encode.org"    >base64encode.org</a>
+ or you can call <code>btoa</code> function in your browser&rsquo;s devtools console. For example: <code>btoa('?event=...&amp;key=...&amp;key2=...</code>)</em></p>
 <h3 id="subscribe-function"><code>subscribe</code> function</h3>
 <p>The subscribe function adds a listener for the specified <code>topic</code>. This function receives the following arguments.</p>
 <h4 id="topic-1">topic</h4>
@@ -610,15 +612,6 @@ window.syna.stream.publish('pricing:change', {
         <a href="">
           <img src="/images/logo.svg" class="img-fluid w-50" alt="Logo Subtext">
         </a>
-        <div class="row justify-content-left ml-0">
-            <span class="fa-stack fa-2x mt-3 mr-1" title="facebook">
-              <a href="https://www.facebook.com/leogliss/" class="ignore-color-change">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-stack-1x fa-fw text-light"></i>
-                <span class="sr-only">facebook</span>
-              </a>
-            </span>
-        </div>
     </div>
     <div class="col-md m-2 text-body">
         <h4>Les liens à connaître</h4>
@@ -657,8 +650,8 @@ window.syna.stream.publish('pricing:change', {
           <div class="row mx-0 my-2 justify-content-center">
             <ul class="nav ml-lg-auto">
                 <li class="nav-item">
-                  <a class="nav-link py-0" href="/about"
-                  >L&#39;association</a>
+                  <a class="nav-link py-0" href="/contact"
+                  >Contacter l&#39;association</a>
                 </li>
             </ul>
           </div>

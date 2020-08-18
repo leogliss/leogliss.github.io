@@ -3,13 +3,13 @@ fragment = "hero"
 #disabled = true
 date = "2016-09-07"
 weight = 110
-background = "secondary"
+background = "primary"
 particles = true
 #minHeight = "calc(100vh - 56px)" # optional - changes hero fragment's minimum height
 
 #title_page = true # Default is false
-title = "Syna Theme"
-subtitle = "Showcase your next project"
+title = "Léogliss"
+subtitle = "L'association de roller de Léognan"
 
 [header]
   image = "header.jpg"

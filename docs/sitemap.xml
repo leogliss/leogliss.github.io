@@ -118,6 +118,10 @@
   </url>
   
   <url>
+    <loc>/inscriptions/</loc>
+  </url>
+  
+  <url>
     <loc>/fragments/item/</loc>
     <lastmod>2020-08-08T10:05:52+02:00</lastmod>
   </url>

@@ -7,7 +7,7 @@ background = "light" # can influence the text color
 particles = true
 
 title = "Léogliss Hero"
-subtitle = "Le site de l'associalion Léogliss"
+subtitle = " "
 
 [header]
   image = "header.jpg"
@@ -20,12 +20,6 @@ subtitle = "Le site de l'associalion Léogliss"
 [[buttons]]
   text = "S'inscrire"
   url = "/inscriptions/"
-  color = "secondary" 
-
-[[buttons]]
-  text = "S'inscrire"
-  url = "/inscriptions/"
-  color = "primary" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
-
+  color = "secondary"    # primary, secondary, success, danger, warning, info, light, dark, link - default: primary 
 
 +++

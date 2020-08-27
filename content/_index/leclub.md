@@ -2,7 +2,7 @@
 fragment = "content"
 #disabled = true
 date = "2020-08-18"
-weight = 100
+weight = 300
 background = "light"
 
 title = "Le club"
@@ -10,4 +10,19 @@ subtitle = "Tout savoir sur l'association"
 #title_align = "left" # Default is center, can be left, right or center
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a lorem urna. Quisque in neque malesuada, sollicitudin nunc porttitor, ornare est. Praesent ante enim, bibendum sed hendrerit et, iaculis laoreet felis. #title_align = "left" # Default is center, can be left, right or center, Morbi efficitur dui sit amet orci porttitor, nec tincidunt turpis elementum. Suspendisse rutrum, mi ac sollicitudin blandit, eros sem tincidunt enim, vitae feugiat turpis eros ut diam. Nunc hendrerit, nibh vitae dignissim pretium, magna nulla lacinia massa, et interdum lacus purus ultricies lacus. Nulla tincidunt quis lacus in posuere. Integer urna lorem, ultricies ut est vel, rhoncus euismod metus. Vestibulum luctus maximus massa, ut egestas est iaculis in. Nunc nisi dolor, sodales et imperdiet ut, lacinia ac justo. Phasellus ultrices risus cursus maximus lobortis. Vestibulum sagittis elementum dignissim. Suspendisse iaculis background = "secondary" venenatis nisl, sed bibendum urna. Aliquam quis pellentesque tortor. Sed sed cursus nisl. Aenean eu lorem condimentum, feugiat mauris vitae, hendrerit tellus.
+L’association Léogliss, créée en 1998 à Léognan, a pour vocation d’enseigner les disciplines relevant de la Fédération Française de Roller et Skateboard dont elle est adhérente. 
+
+Il s’agit d’une Association Loi 1901 gérée par le bureau suivant en place depuis avril 2019 :
+- Présidente : Céline Richard
+- Secrétaire : Virginie Bizeul 
+- Trésorier : Laurent Forêt 
+- Président adjoint : Alexis Roquette
+- Secrétaire adjointe : Muriel Segalen
+- Trésorier adjoint : René Longis
+- Membre honoraire : Jean Pierre Abribat
+
+Les statuts et règlement intérieur peuvent être consultés en cliquant sur les liens suivants : 
+ - [Statuts](https://drive.google.com/file/d/1NLQ1JTxLKLfIgsmMuNA-_Je538Z5eQSV/view?usp=sharing)
+ - [Règlement intérieur](https://drive.google.com/file/d/1fkjaaIAsa-nC2LH4fRwR9tTBnkkG8_J5/view?usp=sharing).
+
+L’Assemblée Générale qui s’est tenue le 11 février 2020 a validé les rapports annuel et financier consultables [en cliquant sur le lien](https://drive.google.com/file/d/1W8NNC0Yj2Sx7WjqBvva4R5VdgmzfGLOZ/view?usp=sharing).

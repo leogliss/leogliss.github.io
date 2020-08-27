@@ -13,4 +13,4 @@ menu_title = "Les liens à connaître"
 +++
 
 
-![Fédération Française de Roller & Skateboard](images/logo_ffrs_2018_2.png)
+![Fédération Française de Roller & Skateboard](/images/logo_ffrs_2018_2.png)

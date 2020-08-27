@@ -2,11 +2,11 @@
 fragment = "content"
 #disabled = true
 date = "2020-08-18"
-weight = 300
+weight = 500
 background = "light"
 
 title = "Le club"
-subtitle = "Tout savoir sur l'association"
+#title = "L'association Léogliss" 
 #title_align = "left" # Default is center, can be left, right or center
 +++
 

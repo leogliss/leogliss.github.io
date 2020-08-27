@@ -1,7 +1,7 @@
 +++
 weight = 10
 
-title = "Tarifs"
+title = "Tarif unique"
 
 price = "125 €"
 # highlight = true

@@ -78,7 +78,7 @@ lastmod = ["lastmod", ":git", "date"]
 # configurable.
 
 [[menu.main]]
-  url = "#leclub"
+  url = "/leclub"
   name = "Le club"
   weight = 20
 

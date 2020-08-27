@@ -1,6 +1,6 @@
 +++
 fragment = "content"
-weight = "200"
+weight = 100
 
 background = "light"
 title = "École de patinage "

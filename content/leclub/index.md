@@ -25,4 +25,4 @@ Les statuts et règlement intérieur peuvent être consultés en cliquant sur le
  - [Statuts](https://drive.google.com/file/d/1NLQ1JTxLKLfIgsmMuNA-_Je538Z5eQSV/view?usp=sharing)
  - [Règlement intérieur](https://drive.google.com/file/d/1fkjaaIAsa-nC2LH4fRwR9tTBnkkG8_J5/view?usp=sharing).
 
-L’Assemblée Générale qui s’est tenue le 11 février 2020 a validé les rapports annuel et financier consultables [en cliquant sur le lien](https://drive.google.com/file/d/1W8NNC0Yj2Sx7WjqBvva4R5VdgmzfGLOZ/view?usp=sharing).
+L’Assemblée Générale qui s’est tenue le 11 février 2020 a validé les rapports annuel et financier consultables [en cliquant sur le lien](https://drive.google.com/file/d/1YBbo_zA2zBym4NahiQ1PVIkxfEA6MB4w/view?usp=sharing).

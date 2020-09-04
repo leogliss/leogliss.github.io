@@ -385,7 +385,7 @@ html {
   align-self: stretch !important; }
 </style>
 
-  <link href="/style.min.4a82b85dc052f5ab59083cd191da8aab1189bd30a587d1d7cf3e6b7b551acc93.css" rel="stylesheet">
+  <link href="/style.min.6cd5020cfc40617334b18fa30576281dd9d444c715327d00b753ba97979445e6.css" rel="stylesheet">
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
       <link rel="icon" sizes="16x16 32x32" type="image/x-icon" href="/favicon.ico">
       <link rel="icon" href="/favicon.png">
@@ -402,17 +402,17 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
+        <img src="/images/logo-fond-blanc.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
+    <div class="navbar-collapse justify-content-end collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
                   class="nav-link anchor"
                 
-                  href="/#lescours"
+                  href="/#lesdifferentscours"
                 >
                 Les cours
               </a>
@@ -432,7 +432,7 @@ html {
                 
                   href="/inscriptions"
                 >
-                Inscriptions
+                Inscription
               </a>
               
             </li><li class="nav-item ">
@@ -446,21 +446,6 @@ html {
               
             </li>
       </ul>
-        <div class="search-container position-relative">
-          <form action="/search" class="my-0">
-            <div class="input-group my-0">
-              <input type="text" class="form-control py-1" id="search-query-nav" name="s" placeholder="Rechercher…">
-              <div class="input-group-append">
-                <button class="btn btn-primary" title="Rechercher"><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-          </form>
-          <div class="search-results-container">
-            <div class="col p-0">
-              <div id="search-results-nav" class="col px-0 results"></div>
-            </div>
-          </div>
-        </div>
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
@@ -471,62 +456,10 @@ html {
     </div>
 </nav>
 
-  <nav aria-label="breadcrumb" class="overlay navbar breadcrumb-container navbar-expand-lg pt-2 bg-light navbar-dark" id="nav-breadcrumb">
-    <div class="container">
-      <ol class="breadcrumb mb-0 py-1"><li class="breadcrumb-item active">Le club
-            </li></ol>
-    </div>
-  </nav>
 <div class="scroll-to-top bg-primary has-font-icon"
   title="Revenir au début"
   ><i class="fas fa-angle-up"></i><span class="sr-only">Revenir au début</span>
 </div>
-
-<script id="search-empty-template-nav" type="text/x-js-template">
-  <p class="p-2">Please enter a word or phrase above</p>
-</script>
-<script id="search-no-results-template-nav" type="text/x-js-template">
-  <p class="p-2">No matches found</p>
-</script>
-<script id="search-result-template-nav" type="text/x-js-template">
-  <a href="${link}" id="summary-${key}" class="result ignore-color-change">
-    <div class="p-2">
-      <h5>${title}</h5>
-      <p class="m-0 text-secondary">${snippet}</p>
-      ${ isset tags }<p>Tags: ${tags}</p>${ end }
-      ${ isset categories }<p>Categories: ${categories}</p>${ end }
-    </div>
-  </a>
-</script>
-
-<script>
-  (function() {
-    var fragmentName = "nav";
-    window.syna.api.register('search', 'search-' + fragmentName, {
-      searchInput: `#search-query-${fragmentName}`,
-      resultsContainer: `#search-results-${fragmentName}`,
-      template: `#search-result-template-${fragmentName}`,
-      noResults: `#search-no-results-template-${fragmentName}`,
-      empty: `#search-empty-template-${fragmentName}`,
-    });
-
-    var resultsContainer = document.querySelector(`#${fragmentName} .search-results-container`)
-    document.querySelector(`#search-query-${fragmentName}`).addEventListener('input', function(e) {
-      if (e.target.value.length) {
-        resultsContainer.classList.add('show');
-      } else {
-        resultsContainer.classList.remove('show');
-      }
-    });
-
-    document.addEventListener('click', function(e) {
-      if (!document.querySelector(`#${fragmentName} .search-container`).contains(e.target)) {
-        document.querySelector(`#search-query-${fragmentName}`).value = '';
-        resultsContainer.classList.remove('show');
-      }
-    });
-  })();
-</script>
 <style>
   :root {
     --header-height: 56px;
@@ -561,7 +494,7 @@ html {
 <li><a href="https://drive.google.com/file/d/1fkjaaIAsa-nC2LH4fRwR9tTBnkkG8_J5/view?usp=sharing"     target="_blank">Règlement intérieur</a>
 .</li>
 </ul>
-<p>L’Assemblée Générale qui s’est tenue le 11 février 2020 a validé les rapports annuel et financier consultables <a href="https://drive.google.com/file/d/1W8NNC0Yj2Sx7WjqBvva4R5VdgmzfGLOZ/view?usp=sharing"     target="_blank">en cliquant sur le lien</a>
+<p>L’Assemblée Générale qui s’est tenue le 11 février 2020 a validé les rapports annuel et financier consultables <a href="https://drive.google.com/file/d/1YBbo_zA2zBym4NahiQ1PVIkxfEA6MB4w/view?usp=sharing"     target="_blank">en cliquant sur le lien</a>
 .</p>
 </div>
     </article>
@@ -632,7 +565,6 @@ html {
 
     <!-- Theme Code -->
       <script async defer src="/scripts/syna-main.min.4a4e6f6f53a8bfc964a2af963774d43ab002eb5c1b1c18931e04cd89d23b36c9.js"></script>
-      <script async defer src="/scripts/syna-search.min.de9824b92deef8d93561bd0f432cc7e1c0a8e2e00524057b76b476dcf26dc86c.js"></script>
       <script async defer src="/scripts/syna-content.min.bf537eb5ace369e45e8b4ed41b8d235a65db92236a400ed5659f7a3c41d0f221.js"></script>
   </body>
 </html>

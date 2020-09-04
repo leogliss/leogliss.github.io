@@ -1,14 +1,14 @@
 +++
-title = "Loisirs"
+title = "Loisirs'roller"
 weight = 50
 subtitle = ""
 [asset]
-  icon = "fas fa-cube"
+  image = "loisirs.png"
 +++
 
-Lundi 17h30 -19h00.
+__Lundi # 19h - 20h30__
 
- __\> 15 ans__, les Loisirs’Roller est un cours tous niveaux très convivial axé sur l’apprentissage de la technique et le jeu.
+ __\> 15 ans__, les Loisirs’roller est un cours tous niveaux très convivial axé sur l’apprentissage de la technique et le jeu.
 
 
 

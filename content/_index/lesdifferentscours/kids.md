@@ -1,12 +1,13 @@
 +++
-title = "Kid's Roller"
+title = "Kids'roller"
 weight = 30
 
 [asset]
-  icon = "fab fa-react"
+  image= "kids.png"
+  width = "400px" 
 +++
 
-Samedi 09h30-11h00 et 11h00-12h30.
+__Samedi # 9h30 - 11h et 11h - 12h30__ 
 
-__De 4 à 10 ans__, les Kids’Roller sont répartis dans 2 groupes de niveaux afin de favoriser un enseignement technique adapté à une progression homogène. 
+__De 4 à 11 ans__, les Kids'roller sont répartis dans 2 groupes de niveaux afin de favoriser un enseignement technique adapté à une progression homogène. 
 

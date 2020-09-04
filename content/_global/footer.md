@@ -4,6 +4,7 @@ fragment = "footer"
 date = "2020-08-15"
 weight = 1200
 background = "secondary"
+sticky = true
 
 menu_title = "Les liens à connaître"
 

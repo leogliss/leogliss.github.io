@@ -2,7 +2,7 @@
 fragment = "content"
 weight = 300
 
-background = "primary"
+background = "info"
 title = "Informations pratiques"
 +++
 

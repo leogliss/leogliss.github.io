@@ -380,7 +380,7 @@ html {
   align-self: stretch !important; }
 </style>
 
-  <link href="/style.min.4a82b85dc052f5ab59083cd191da8aab1189bd30a587d1d7cf3e6b7b551acc93.css" rel="stylesheet">
+  <link href="/style.min.6cd5020cfc40617334b18fa30576281dd9d444c715327d00b753ba97979445e6.css" rel="stylesheet">
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
       <link rel="icon" sizes="16x16 32x32" type="image/x-icon" href="/favicon.ico">
       <link rel="icon" href="/favicon.png">
@@ -397,17 +397,17 @@ html {
     <!-- Navigation --><nav class="overlay fragment navbar navbar-expand-lg py-2 scroll-spy bg-dark navbar-dark" id="nav" role="navigation" style='position: sticky; top: 0; z-index: 10000 !important;'>
   <div class="container">
       <a class="navbar-brand py-0" href="/#">
-        <img src="/images/logo.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
+        <img src="/images/logo-fond-blanc.svg" height="35" class="d-inline-block align-top" alt="Léogliss">
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse justify-content-between collapse show" id="navbarCollapse">
+    <div class="navbar-collapse justify-content-end collapse show" id="navbarCollapse">
       <ul class="navbar-nav"><li class="nav-item ">
               <a
                   class="nav-link anchor"
                 
-                  href="/#lescours"
+                  href="/#lesdifferentscours"
                 >
                 Les cours
               </a>
@@ -427,7 +427,7 @@ html {
                 
                   href="/inscriptions"
                 >
-                Inscriptions
+                Inscription
               </a>
               
             </li><li class="nav-item ">
@@ -441,21 +441,6 @@ html {
               
             </li>
       </ul>
-        <div class="search-container position-relative">
-          <form action="/search" class="my-0">
-            <div class="input-group my-0">
-              <input type="text" class="form-control py-1" id="search-query-nav" name="s" placeholder="Rechercher…">
-              <div class="input-group-append">
-                <button class="btn btn-primary" title="Rechercher"><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-          </form>
-          <div class="search-results-container">
-            <div class="col p-0">
-              <div id="search-results-nav" class="col px-0 results"></div>
-            </div>
-          </div>
-        </div>
     </div>
   </div>
     <div class="d-none d-lg-block pl-auto">
@@ -470,52 +455,6 @@ html {
   title="Revenir au début"
   ><i class="fas fa-angle-up"></i><span class="sr-only">Revenir au début</span>
 </div>
-
-<script id="search-empty-template-nav" type="text/x-js-template">
-  <p class="p-2">Please enter a word or phrase above</p>
-</script>
-<script id="search-no-results-template-nav" type="text/x-js-template">
-  <p class="p-2">No matches found</p>
-</script>
-<script id="search-result-template-nav" type="text/x-js-template">
-  <a href="${link}" id="summary-${key}" class="result ignore-color-change">
-    <div class="p-2">
-      <h5>${title}</h5>
-      <p class="m-0 text-secondary">${snippet}</p>
-      ${ isset tags }<p>Tags: ${tags}</p>${ end }
-      ${ isset categories }<p>Categories: ${categories}</p>${ end }
-    </div>
-  </a>
-</script>
-
-<script>
-  (function() {
-    var fragmentName = "nav";
-    window.syna.api.register('search', 'search-' + fragmentName, {
-      searchInput: `#search-query-${fragmentName}`,
-      resultsContainer: `#search-results-${fragmentName}`,
-      template: `#search-result-template-${fragmentName}`,
-      noResults: `#search-no-results-template-${fragmentName}`,
-      empty: `#search-empty-template-${fragmentName}`,
-    });
-
-    var resultsContainer = document.querySelector(`#${fragmentName} .search-results-container`)
-    document.querySelector(`#search-query-${fragmentName}`).addEventListener('input', function(e) {
-      if (e.target.value.length) {
-        resultsContainer.classList.add('show');
-      } else {
-        resultsContainer.classList.remove('show');
-      }
-    });
-
-    document.addEventListener('click', function(e) {
-      if (!document.querySelector(`#${fragmentName} .search-container`).contains(e.target)) {
-        document.querySelector(`#search-query-${fragmentName}`).value = '';
-        resultsContainer.classList.remove('show');
-      }
-    });
-  })();
-</script>
 <style>
   :root {
     --header-height: 56px;
@@ -567,6 +506,7 @@ et quel que soit votre niveau, venez découvrir notre école de patinage !</p>
 <p>Nous proposons des cours où chacun peut progresser à son rythme grâce à l’implication et la bienveillance de nos moniteurs diplômés. 
 Nous veillons à ce que chacun développe sa confiance en soi pour s’épanouir dans la discipline et évoluer comme il le souhaite.</p>
 <p>Quel que soit le cours, l’enseignement technique laisse une grande place aux jeu et aux activités ludiques.</p>
+<p>Nos adhérents sont répartis sur les différents cours en fonction de leur âge :</p>
 </div>
     </article>
   </div>
@@ -578,66 +518,50 @@ Nous veillons à ce que chacun développe sa confiance en soi pour s’épanouir
 <section id="lesdifferentscours" class="fragment ">
     <div class="container-fluid bg-light ">
     <div class="container py-5 ">
-<div class="subtitle-container row mx-0">
-    <div class="subtitle col pt-4 pb-0 px-0 text-center text-body">
-      <h5>Nos adhérents sont répartis sur les différents cours en fonction de leur âge :</h5>
-    </div>
-  </div>
+
 
   <div class="row justify-content-center align-items-stretch items">
           <div class="col-md-4 items-column">
             <div class="row image justify-content-center align-items-center">
-                  <span class="fa-stack fa-3x m-2" title="Kid&#39;s Roller">
-                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fab fa-react fa-stack-1x fa-inverse"></i>
-                    <span class="sr-only">Kid&#39;s Roller</span>
-                  </span>
+                  <img src="/images/kids.png" class="p-2 w-75 mb-2" alt="Kids&#39;roller">
             </div>
               <div class="row justify-content-center text-center">
-                  <h4 class="mb-3 text-body">Kid&rsquo;s Roller</h4>
+                  <h4 class="mb-3 text-body">Kids&rsquo;roller</h4>
               </div>
               <div class="row justify-content-center text-center p-2">
                 <div class=" text-body">
-                  <p>Samedi 09h30-11h00 et 11h00-12h30.</p>
-<p><strong>De 4 à 10 ans</strong>, les Kids’Roller sont répartis dans 2 groupes de niveaux afin de favoriser un enseignement technique adapté à une progression homogène.</p>
+                  <p><strong>Samedi # 9h30 - 11h et 11h - 12h30</strong></p>
+<p><strong>De 4 à 11 ans</strong>, les Kids&rsquo;roller sont répartis dans 2 groupes de niveaux afin de favoriser un enseignement technique adapté à une progression homogène.</p>
 
                 </div>
               </div>
           </div>
           <div class="col-md-4 items-column">
             <div class="row image justify-content-center align-items-center">
-                  <span class="fa-stack fa-3x m-2" title="Teens&#39; Roller">
-                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-cubes fa-stack-1x fa-inverse"></i>
-                    <span class="sr-only">Teens&#39; Roller</span>
-                  </span>
+                  <img src="/images/teens.png" class="p-2 w-75 mb-2" alt="Teens&#39;roller">
             </div>
               <div class="row justify-content-center text-center">
-                  <h4 class="mb-3 text-body">Teens&rsquo; Roller</h4>
+                  <h4 class="mb-3 text-body">Teens&rsquo;roller</h4>
               </div>
               <div class="row justify-content-center text-center p-2">
                 <div class=" text-body">
                   <p>Mercredi 17h30 -19h00.</p>
-<p><strong>De 11 à 14 ans</strong>, les Teens’Roller évoluent ensemble sur un cours unique tous niveaux et accueille également les &lt; 11 ans titulaires de la roue rouge.</p>
+<p><strong>De 11 à 15 ans</strong>, les Teens’roller évoluent ensemble sur un cours unique tous niveaux et accueille également les &lt; 11 ans titulaires de la roue rouge.</p>
 
                 </div>
               </div>
           </div>
           <div class="col-md-4 items-column">
             <div class="row image justify-content-center align-items-center">
-                  <span class="fa-stack fa-3x m-2" title="Loisirs">
-                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-cube fa-stack-1x fa-inverse"></i>
-                    <span class="sr-only">Loisirs</span>
-                  </span>
+                  <img src="/images/loisirs.png" class="p-2 w-75 mb-2" alt="Loisirs&#39;roller">
             </div>
               <div class="row justify-content-center text-center">
-                  <h4 class="mb-3 text-body">Loisirs</h4>
+                  <h4 class="mb-3 text-body">Loisirs&rsquo;roller</h4>
               </div>
               <div class="row justify-content-center text-center p-2">
                 <div class=" text-body">
-                  <p>Lundi 17h30 -19h00.</p>
-<p><strong>&gt; 15 ans</strong>, les Loisirs’Roller est un cours tous niveaux très convivial axé sur l’apprentissage de la technique et le jeu.</p>
+                  <p><strong>Lundi # 19h - 20h30</strong></p>
+<p><strong>&gt; 15 ans</strong>, les Loisirs’roller est un cours tous niveaux très convivial axé sur l’apprentissage de la technique et le jeu.</p>
 
                 </div>
               </div>
@@ -648,16 +572,16 @@ Nous veillons à ce que chacun développe sa confiance en soi pour s’épanouir
 
 <!-- Content -->
 <section id="infospratiques" class="fragment content-fragment">
-    <div class="container-fluid bg-primary overlay">
+    <div class="container-fluid bg-info overlay">
     <div class="container py-5 overlay">
 <div class="row">
       <article class="col-md-12">
   <div class="title-container row mx-0">
-    <div class="title col px-0 text-center text-body">
+    <div class="title col px-0 text-center text-white">
       <h2>Informations pratiques</h2>
     </div>
   </div>
-<div class="content-body col-12 content px-0 text-body"><p>Les cours se déroulent au skate park de Léognan ou à l’école Marcel Pagnol les jours de pluie (nous prévenons avant le cours le cas échéant).</p>
+<div class="content-body col-12 content px-0 text-white"><p>Les cours se déroulent au skate park de Léognan ou à l’école Marcel Pagnol les jours de pluie (nous prévenons avant le cours le cas échéant).</p>
 <p><strong>Nous rappelons que le port du casque et des protections (poignets, coudes, genoux) sont obligatoires pour tous, à chaque cours !</strong></p>
 </div>
     </article>
@@ -667,7 +591,7 @@ Nous veillons à ce que chacun développe sa confiance en soi pour s’épanouir
 </section>
 
 <!-- Content -->
-<section id="autresactivities" class="fragment content-fragment">
+<section id="autresactivites" class="fragment content-fragment">
     <div class="container-fluid bg-light overlay">
     <div class="container py-5 overlay">
 <div class="row">
@@ -749,7 +673,6 @@ Nous veillons à ce que chacun développe sa confiance en soi pour s’épanouir
 
     <!-- Theme Code -->
       <script async defer src="/scripts/syna-main.min.4a4e6f6f53a8bfc964a2af963774d43ab002eb5c1b1c18931e04cd89d23b36c9.js"></script>
-      <script async defer src="/scripts/syna-search.min.de9824b92deef8d93561bd0f432cc7e1c0a8e2e00524057b76b476dcf26dc86c.js"></script>
       <script async defer src="/scripts/syna-hero.min.97a3fff0c67d9da74ebdd6af2640d8a9cde6200539e8c3b2c091b7fc6644420e.js"></script>
       <script async defer src="/scripts/syna-content.min.bf537eb5ace369e45e8b4ed41b8d235a65db92236a400ed5659f7a3c41d0f221.js"></script>
       <script async defer src="/scripts/syna-content.min.bf537eb5ace369e45e8b4ed41b8d235a65db92236a400ed5659f7a3c41d0f221.js"></script>

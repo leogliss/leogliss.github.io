@@ -16,7 +16,7 @@ title = "Contact"
 
 Vous pouvez nous contactez sur les différents canaux suivants :
 
-- email : clubleoglis@gmail.com
+- email : clubleogliss@gmail.com
 - téléphone : 07.67.14.03.82
 
 Notre adresse :

@@ -16,9 +16,10 @@ sticky = true
 [asset]
   image = "logo-fond-blanc.svg"
   text = "Léogliss"
+  width = "300 px"
 
 [repo_button]
   url = "https://www.facebook.com/leogliss/"
   text = "Léogliss" 
-  icon = "fab fa-facebook" 
+  icon = "fab fa-facebook-f" 
 +++

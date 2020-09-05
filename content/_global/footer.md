@@ -6,7 +6,7 @@ weight = 1200
 background = "secondary"
 sticky = true
 
-menu_title = "Les liens à connaître"
+menu_title = "Liens utiles"
 
 [asset]
   image = "logo.svg"

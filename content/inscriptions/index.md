@@ -6,6 +6,8 @@ title = "Inscription"
 background = "light"
 +++
 
+ 
+
 Les inscriptions se font de préférence sur le site [helloAsso](http://helloasso.com/associations/leogliss), pour cela 
 il faut vous munir : 
    - d'un certificat médical de moins de trois ans

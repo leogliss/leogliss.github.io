@@ -6,6 +6,8 @@ background = "light"
 title = "École de patinage "
 +++
 
+ 
+
 Mordu.e de roller ou désireux.se de découvrir la discipline, que vous soyez jeune ou moins jeune 
 et quel que soit votre niveau, venez découvrir notre école de patinage !
 

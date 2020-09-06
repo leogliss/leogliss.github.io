@@ -6,6 +6,7 @@ background = "light"
 title = "Autres activités"
 +++
 
+ 
  
 Nous proposons dans l’année des stages vacances scolaires, des randonnées et des événements ludiques (roller mix, roller disco) (dates non définies à ce jour compte tenu de la situation sanitaire).
 

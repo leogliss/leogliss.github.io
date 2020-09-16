@@ -9,9 +9,9 @@ sticky = true
 menu_title = "Liens utiles"
 
 [asset]
-  image = "logo.svg"
-  text = "Logo Subtext"
+  image = "logo-fond-blanc.png"
+  text = "Logo Léogliss"
 +++
 
 
-![Fédération Française de Roller & Skateboard](/images/logo_ffrs_2018_2.png)
+![Fédération Française de Roller & Skateboard](/images/logo_ffrs_2018_2_fond_blanc.png)

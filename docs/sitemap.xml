@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/inscriptions/</loc>
     <lastmod>2020-09-15T21:09:52+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/leclub/</loc>
     <lastmod>2020-09-06T19:57:53+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/contact/</loc>
     <lastmod>2020-08-17T09:16:15+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
     <lastmod>2020-08-27T17:58:47+02:00</lastmod>
   </url>
-  
 </urlset>

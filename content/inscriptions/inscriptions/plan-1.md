@@ -4,7 +4,7 @@ weight = 10
 title = "Adhésion annuelle"
 
 price = "125 €"
-#highlight = true
+highlight = true
 
 button_text = "Inscription sur HelloAsso"
 button_url = "http://helloasso.com/associations/leogliss"
@@ -25,7 +25,7 @@ button_url = "http://helloasso.com/associations/leogliss"
   text = ""
   
 [[features]]
-  text = "Possibilité de régler en trois fois sans frais"
+  text = "Possibilité de régler en __trois fois sans frais__"
   icon = "fas fa-check"
   
                 

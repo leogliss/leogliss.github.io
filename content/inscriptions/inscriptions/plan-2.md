@@ -1,9 +1,9 @@
 +++
 weight = 20
 
-title = "Adhésion Famille"
+title = "Pass'Sport"
 
-price = "5% de réduction"
+price = "75 €"
 # highlight = true
 
 button_text = "Inscription sur HelloAsso"
@@ -12,6 +12,6 @@ button_url = "http://helloasso.com/associations/leogliss"
 
 [[features]]  
   icon = "fas fa-check"
-  text = "Si vous souhaitez inscrire 2 adhérents ou plus d'un même foyer. Pensez à saisir le code promo FAMILLE pour bénéficier d'une réduction de 5 %  sur le montant total de vos adhésions."
+  text = "Vous devez impérativement nous transmettre par mail à __clubleogliss@gmail.com__ une copie du __courrier du Ministère chargé des Sports__ vous informant que vous pouvez bénéficier du Pass'Sport."
   
 +++

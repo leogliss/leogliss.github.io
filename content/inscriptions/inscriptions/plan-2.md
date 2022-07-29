@@ -3,7 +3,7 @@ weight = 20
 
 title = "Pass'Sport"
 
-price = "75 €"
+price = "80 €"
 # highlight = true
 
 button_text = "Inscription sur HelloAsso"

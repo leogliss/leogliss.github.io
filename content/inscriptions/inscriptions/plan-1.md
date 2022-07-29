@@ -3,7 +3,7 @@ weight = 10
 
 title = "Adhésion annuelle"
 
-price = "125 €"
+price = "130 €"
 highlight = true
 
 button_text = "Inscription sur HelloAsso"

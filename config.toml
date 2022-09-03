@@ -13,6 +13,9 @@ ignorefiles = [ "content/dev/.*" ]
 # Google Analytics tracking
 googleAnalytics = ""
 
+[minify]
+disableJS = true
+
 [outputs]
   home = ["HTML", "JSON"]
 
@@ -109,6 +112,11 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://www.facebook.com/leogliss/"
   name = "Facebook"
   weight = 20
+
+[[menu.footer]]
+  url = "https://ffroller.fr"
+  name = "FFRS"
+  weight = 30
 
 #[[menu.footer_social]]
 #  weight = 10

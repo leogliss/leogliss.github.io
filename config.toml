@@ -77,7 +77,7 @@ lastmod = ["lastmod", ":git", "date"]
 # copyright_footer menus are displayed in copyright fragment
 # Keep an eye out for updates. These will be moved out to make navbar more
 [[menu.main]]
-  url = "#lesdifferentscours"
+  url = "#lescours"
   name = "Les cours"
   weight = 10
 # configurable.

@@ -23,3 +23,5 @@ subtitle = " "
   color = "secondary"    # primary, secondary, success, danger, warning, info, light, dark, link - default: primary 
 
 +++
+
+<iframe id="haWidget" allowtransparency="true" src="https://www.helloasso.com/associations/leogliss/adhesions/adhesion-saison-2022-2023-1/widget-bouton" style="width: 100%; height: 70px; border: none;"></iframe>

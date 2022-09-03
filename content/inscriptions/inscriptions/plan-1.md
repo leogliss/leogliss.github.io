@@ -21,8 +21,6 @@ button_url = "http://helloasso.com/associations/leogliss"
   text = "**Une licence** loisirs auprès de la FFRS"
   icon = "fas fa-check"
   
-[[features]]
-  text = ""
   
 [[features]]
   text = "Possibilité de régler en __trois fois sans frais__"

@@ -12,9 +12,9 @@ title = "Le club"
 
  
 
-L’association Léogliss, créée en 1998 à Léognan, a pour vocation d’enseigner les disciplines relevant de la Fédération Française de Roller et Skateboard dont elle est adhérente. 
+L’association Léogliss, créée en 1998 à Léognan, a pour vocation d’enseigner les disciplines relevant de la Fédération Française de Roller et Skateboard à laquelle elle est affiliée. 
 
-Il s’agit d’une Association Loi 1901 gérée par le bureau suivant en place en 2022 :
+Il s’agit d’une Association Loi 1901 gérée par le bureau suivant mis en place en 2022 :
 - Présidente : Céline Richard
 - Secrétaire : Virginie Bizeul 
 - Trésorier : Laurent Forêt 

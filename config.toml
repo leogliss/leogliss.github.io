@@ -93,6 +93,11 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Inscription"
   weight = 30
 
+[[menu.main]]
+  url = "/Boutique"
+  name = "Boutique"
+  weight = 40
+
 #[[menu.main]]
 #  url = "/fragments/portfolio"
 #  name = "Photos"

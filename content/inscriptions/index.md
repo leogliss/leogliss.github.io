@@ -6,7 +6,7 @@ title = "Inscription"
 background = "light"
 +++
 
-Les inscriptions se font dorénavante que sur le site [helloAsso](http://helloasso.com/associations/leogliss)
+Les inscriptions se font sur le site [helloAsso](http://helloasso.com/associations/leogliss)
 
 <!-- Vous pouvez également télécharger le [formulaire](/resources/2022-2023/FORMULAIRE_INSCRIPTION_2022-2023.pdf) d'inscription et la [demande de licence](/resources/2022-2023/Demande-Licence-Club-2022-2023-formulaire-remplissable-sur-ordi.pdf) 
 et remettre les deux documents complétés accompagnés du règlement et des pièces indispensables (cf. ci-dessous) aux moniteurs ou à un membre du bureau.   -->

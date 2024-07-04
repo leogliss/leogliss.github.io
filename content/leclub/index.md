@@ -19,13 +19,12 @@ Il s’agit d’une Association Loi 1901 gérée par le bureau suivant mis en pl
 - Secrétaire : Delphine Duval-Spiteri
 - Trésorier : Laurent Forêt
 - Secrétaire adjointe : Muriel Segalen
-- Trésorier adjoint : René Longis
-- Membre honoraire : Jean Pierre Abribat
+- Membres honoraires : Jean Pierre Abribat, René Longis
 
 Les statuts et règlement intérieur peuvent être consultés en cliquant sur les liens suivants : 
  - [Statuts](https://drive.google.com/file/d/1NLQ1JTxLKLfIgsmMuNA-_Je538Z5eQSV/view?usp=sharing)
  - [Règlement intérieur](https://drive.google.com/file/d/1fkjaaIAsa-nC2LH4fRwR9tTBnkkG8_J5/view?usp=sharing).
 
-L’Assemblée Générale qui s’est tenue le 30 janvier 2023 a validé les rapports annuel et financier consultables [en cliquant sur le lien](https://docs.google.com/document/d/13CtdjD8fQEop6-HYbw2cITQ6wB9ZrIk7/edit?usp=sharing&ouid=116214645160825737907&rtpof=true&sd=true).
+L’Assemblée Générale qui s’est tenue le 24 mai 2024 a validé les rapports moral et financier consultables [en cliquant sur le lien](https://docs.google.com/document/d/1m3npoINQNTm5PP5mFH9pdV661UpkopTb/edit?usp=sharing&ouid=116214645160825737907&rtpof=true&sd=true).
 
-Le PV d'AG est consultable [ici](https://drive.google.com/file/d/13y2mE9OrvTVWFTXtI_1_5Oh3TGnkTdRV/view?usp=sharing)
+Le PV d'AG est consultable [ici](https://drive.google.com/open?id=1Brhi_OdMwVvYZWpOHSR4_Ya90k6qmZCv&usp=drive_fs)

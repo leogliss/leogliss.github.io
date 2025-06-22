@@ -3,7 +3,7 @@ fragment = "content"
 weight = 300
 
 background = "info"
-title = "Informations pratiques Saison 2024/2025"
+title = "Informations pratiques Saison 2025/2026"
 +++
 
  

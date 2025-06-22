@@ -1,17 +1,30 @@
 +++
-weight = 20
+weight = 10
 
-title = "Pass'Sport"
+title = "Adhésion annuelle"
 
-price = "80 €"
-# highlight = true
+price = "150 €"
+highlight = true
 
 button_text = "Inscription sur HelloAsso"
-button_url = "http://helloasso.com/associations/leogliss"
+button_url = "https://www.helloasso.com/associations/leogliss"
 
 
-[[features]]  
-  icon = "fas fa-check"
-  text = "Vous devez impérativement nous transmettre par mail à __clubleogliss@gmail.com__ une copie du __courrier du Ministère chargé des Sports__ vous informant que vous pouvez bénéficier du Pass'Sport."
+[[features]]
+  text = "Ce tarif comprend :"
   
+[[features]]
+  text = "**1 heure 30** de cours par semaine"
+  icon = "fas fa-check"
+
+[[features]]
+  text = "**Une licence** loisirs auprès de la FFRS"
+  icon = "fas fa-check"
+  
+  
+[[features]]
+  text = "Possibilité de régler en __trois fois sans frais__"
+  icon = "fas fa-check"
+  
+                
 +++

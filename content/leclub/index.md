@@ -18,7 +18,7 @@ Il s’agit d’une Association Loi 1901 gérée par le bureau suivant mis en pl
 - Présidente : Stéphanie Tarade
 - Secrétaire :  Pauline Boudet
 - Trésorier : Laurent Forêt
-- Membres du Bureau : Elise Guimares, Damien Delaplanche
+- Membres du Bureau : Elise Guimaraes, Damien Delaplanche
 
 
 Les statuts et règlement intérieur peuvent être consultés en cliquant sur les liens suivants : 

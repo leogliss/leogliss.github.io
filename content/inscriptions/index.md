@@ -15,9 +15,10 @@ Vous devrez nous fournir les pièces suivantes :
    - [CERFA](/resources/2022-2023/cerfa_adultes.pdf) - [attestation](/resources/2022-2023/Attestation_adultes.pdf)
    - [CERFA mineur](/resources/2022-2023/cerfa_mineurs.pdf) - [attestation mineur](/resources/2022-2023/Attestation_parents.pdf)
 
-### Pass'sport -80 € 
+### Pass'sport 70 € 
 
 Vous devez impérativement nous transmettre par mail à __clubleogliss@gmail.com__ une copie du __courrier du Ministère chargé des Sports__ vous informant que vous pouvez bénéficier du Pass'Sport.
+Pour plus de renseignement sur ce dispositif : https://www.pass.sports.gouv.fr/
 
 ### Adhésion Famille 10% de réduction
 

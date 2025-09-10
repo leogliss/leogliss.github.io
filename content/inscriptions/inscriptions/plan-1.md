@@ -1,7 +1,6 @@
 +++
 weight = 10
-
-title = "Adhésion annuelle né avant le 1er janvier 2018"
+title = "Adhésion annuelle né après le 1er janvier 2018"
 
 price = "135 €"
 highlight = true

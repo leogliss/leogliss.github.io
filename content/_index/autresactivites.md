@@ -8,12 +8,12 @@ title = "Autres activités"
 
  
  
-Nous proposons dans l’année des stages vacances scolaires, des randonnées et des événements ludiques (roller mix, roller party).
+Nous proposons dans l’année des randonnées et des événements ludiques (roller mix, roller party).
 
 L'année dernière, un événement ouvert au public a été organisé aux Halles de Gascogne de Léognan :
 
-   * Dimanche 28 janvier 2024 : Un [Roller mix](https://ffroller.fr/ecole-de-roller/roller-mix/)
+   * Dimanche 31 janvier 2026 : Un [Roller mix](https://ffroller.fr/ecole-de-roller/roller-mix/)
    
-D'autres événements seront à venir cette année. Vous pouvez d'ores et déjà bloquer votre __dimanche 2 février 2025__.
+D'autres événements seront à venir cette année. Vous pouvez d'ores et déjà bloquer votre __samedi 6 février 2027__ .
 
 __Nous pouvons également intervenir dans les ALSH et autres structures pour des initiations ou des animations ludiques. [Contactez-nous](/contact) pour en savoir plus !__

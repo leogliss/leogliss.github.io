@@ -7,7 +7,7 @@ weight = 30
   width = "400px" 
 +++
 
-__Mercredi # 14h - 15h30 et 15h30 - 17h__ 
+__Mercredi # 14h - 15h30 __ 
 
-__De 4 à 11 ans__, les Kids'roller sont répartis dans 2 groupes de niveaux afin de favoriser un enseignement technique adapté à une progression homogène. 
+__De 4 à 9 ans__, les Kids'roller ont un enseignement technique adapté à leur âge basé sur le jeu. La formation évolue en fonction du groupe. 
 

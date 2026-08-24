@@ -9,9 +9,8 @@ background = "light"
 <!-- Quel que soit le mode d'inscription,  -->
 Vous devrez nous fournir les pièces suivantes :
 
-* une photo d’identité
 * un certificat médical de moins de trois ans 
-* Si vous avez un certificat médical en cours de validité (< 3 ans et connu de la Fédération), complétez l'imprimé CERFA et déposez simplement l'attestation :
+* ou l'attestation relative au questionnaire de santé :
    - [CERFA](/resources/2022-2023/cerfa_adultes.pdf) - [attestation](/resources/2022-2023/Attestation_adultes.pdf)
    - [CERFA mineur](/resources/2022-2023/cerfa_mineurs.pdf) - [attestation mineur](/resources/2022-2023/Attestation_parents.pdf)
 

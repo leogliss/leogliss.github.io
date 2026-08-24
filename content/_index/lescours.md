@@ -16,4 +16,4 @@ Nous veillons à ce que chacun développe sa confiance en soi pour s’épanouir
  
 Quel que soit le cours, l’enseignement technique laisse une grande place aux jeux et aux activités ludiques.  
 
-Nos adhérents sont répartis sur les différents cours en fonction de leur âge :
+Nos adhérents sont répartis sur les différents cours en fonction de leur âge et de leurs niveaux :

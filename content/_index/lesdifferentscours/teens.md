@@ -6,6 +6,6 @@ weight = 40
   image = "teens.png"
 +++
 
-__Mercredi # 17h00 - 18h30__
+__Mercredi # 15h30 - 17h00__
 
-__De 11 à 15 ans__, les Teens’roller évoluent ensemble sur un cours unique tous niveaux et accueillent également les < 11 ans titulaires de la roue rouge. 
+__De 10 à 15 ans__, les Teens’roller évoluent ensemble sur un cours unique tous niveaux et accueillent également les < 10 ans titulaires de la roue rouge. 

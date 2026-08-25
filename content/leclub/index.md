@@ -25,6 +25,6 @@ Les statuts et règlement intérieur peuvent être consultés en cliquant sur le
  - [Statuts](https://drive.google.com/file/d/1NLQ1JTxLKLfIgsmMuNA-_Je538Z5eQSV/view?usp=sharing)
  - [Règlement intérieur](https://drive.google.com/file/d/1fkjaaIAsa-nC2LH4fRwR9tTBnkkG8_J5/view?usp=sharing).
 
-L’Assemblée Générale qui s’est tenue le 24 février 2026 a validé les rapports moral et financier consultables [en cliquant sur le lien](https://todo).
+L’Assemblée Générale qui s’est tenue le 24 février 2026 a validé les rapports moral et financier consultables [en cliquant sur le lien](https://docs.google.com/document/d/1MMQXJNY1VCFyddmms1X77GOhVD65uBeh/edit?usp=sharing&ouid=116214645160825737907&rtpof=true&sd=true).
 
-Le PV d'AG est consultable [ici](https://todo
+Le PV d'AG est consultable [ici](https://drive.google.com/file/d/1rhzHQQIlJ_DmSN19EDswhF0lMCiNhPlg/view?usp=sharing)

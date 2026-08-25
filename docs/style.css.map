@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "C:/Users/lfo/scm/github/leogliss.github.io",
+	"sourceRoot": "C:/Users/laure/scm/github/leogliss.github.io",
 	"sources": [
 		"themes/syna/assets/styles/index.scss",
 		"themes/syna/assets/styles/fontawesome/fontawesome.scss",

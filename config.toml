@@ -11,7 +11,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 ignorefiles = [ "content/dev/.*" ]
 
 # Google Analytics tracking
-googleAnalytics = ""
+#googleAnalytics = ""
 
 [minify]
 disableJS = true
